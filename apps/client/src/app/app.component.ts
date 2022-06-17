@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@fullstack-monorepo/api-interfaces';
+import { Post } from '@libs/interfaces';
 
 @Component({
-  selector: 'fullstack-monorepo-root',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
@@ -12,5 +12,5 @@ export class AppComponent {
 
   title = 'Tour of Heroes';
 
-  hello$ = this.http.get<Message>('/api/hello');
+  hello$ = this.http.get<Post>('/api/hello');
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '@fullstack-monorepo/api-interfaces';
+import { Hero } from 'libs/interfaces/src';
 import {
   debounceTime,
   distinctUntilChanged,

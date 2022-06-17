@@ -9,6 +9,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MessagesComponent } from './messages/messages.component';
+import { PostComponent } from './post/post.component';
+import { PageComponent } from './page/page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { MessagesComponent } from './messages/messages.component';
     HeroSearchComponent,
     DashboardComponent,
     MessagesComponent,
+    PostComponent,
+    PageComponent,
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
   providers: [],

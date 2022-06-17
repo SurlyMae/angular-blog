@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Hero } from '@fullstack-monorepo/api-interfaces';
+import { Hero } from 'libs/interfaces/src';
 import { catchError, Observable, of, tap } from 'rxjs';
 import { MessageService } from './message.service';
 
