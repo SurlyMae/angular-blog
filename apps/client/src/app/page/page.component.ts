@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./page.component.css'],
 })
 export class PageComponent {
-  title = 'Page title';
+  title = 'Page title'; // aka tab title aka collection title aka list of x type posts
 }
